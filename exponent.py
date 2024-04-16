@@ -15,4 +15,3 @@ print(exponent(n))
 #5. add 1 to the variable and end the iteratation.
 #5. Call the exponent function with n as the argument and print the result.
 #6. End.
-
