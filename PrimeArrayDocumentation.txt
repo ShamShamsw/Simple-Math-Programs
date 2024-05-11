@@ -1,0 +1,29 @@
+# This program generates a list of 25 random numbers between 0 and 100 and checks if each number is prime or not.
+# To recap prime numbers are numbers that are only divisible by 1 and themselves.
+# This program takes the numbers in the list and checks if they are prime or not.
+# If the number is prime it will print that the number is prime.
+# If the number is not prime it will print that the number is not prime.
+
+# Import for random number generation
+#import random
+
+#def prime(n):
+#    if n < 2:
+#        return False
+#    for i in range(2, n):
+#        if n % i == 0:
+#            return False
+#    return True
+
+#def main():
+#    arr = [random.randint(0, 100) for i in range(25)]
+#    print(arr)
+
+#    for number in arr:
+#        if prime(number):
+#            print(f"{number} is a prime number")
+#        else:
+#            print(f"{number} is not a prime number")
+
+#if __name__ == "__main__":
+#    main()
