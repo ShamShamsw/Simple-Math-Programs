@@ -1,4 +1,4 @@
-def is_prime(n):
+def prime(n):
     if n < 2:
         return False
     for i in range(2, n):
@@ -9,7 +9,7 @@ def is_prime(n):
 def main():
     n = int(input("Enter a number: "))
     for i in range(2, n):
-        if is_prime(i):
+        if prime(i):
             print(i)
 
 if __name__ == "__main__":
@@ -27,3 +27,6 @@ if __name__ == "__main__":
 #9. If the number is prime, print it
 #10. Call the main function if the script is run as the main program
 #11. End
+
+# Next Steps
+# Generate a random array of numbers and check if they are prime
